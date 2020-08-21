@@ -1,0 +1,76 @@
+[INFO] Information:
+Transaction details for your ACCOUNT No.063991900002710 (SA - SMART SALARY EXCLUSIVE) (Currency: INR)
+IFSC =  IFSC : YESB0000639 MICR : 560532017
+Bank =  YES
+Name =  MRS.K GEETHANJALI Your Branch Details :
+[INFO] Exracting transactions...
+  Transaction Date Value Date  ... Credit   Balance
+1       02/12/2017    12/2017  ...    0.0  50000.46
+3       02/12/2017    12/2017  ...    0.0  49531.46
+5       02/12/2017    12/2017  ...    0.0  48108.46
+7       03/12/2017    12/2017  ...    0.0  47950.46
+9       03/12/2017    12/2017  ...    0.0  47791.46
+
+[5 rows x 6 columns]
+[INFO] Exported Transactions...
+Total Transations= 153
+Length of statement:  8 months
+Average monthly debit = Rs. 108087.80111111111
+Average monthly credit = Rs. 102434.44666666667
+[INFO] Classifying Transactions...
+Transaction Labels...
+   Transaction Date Value Date  ...   Balance  Label
+0       02/12/2017    12/2017  ...  50000.46    trf
+1       02/12/2017    12/2017  ...  49531.46    trf
+2       02/12/2017    12/2017  ...  48108.46    trf
+3       03/12/2017    12/2017  ...  47950.46    trf
+4       03/12/2017    12/2017  ...  47791.46   food
+
+[5 rows x 7 columns]
+[INFO] For cash Inflow...
+Label
+cash                                           5
+disbursal kbkondameedageethfinnovation dis     1
+imps                                          20
+interest                                       3
+neft                                           1
+nettxn                                         7
+refund                                         2
+rev of billdesk lybk..-                        1
+trf                                            1
+dtype: int64
+Label
+cash                                          514000.00
+disbursal kbkondameedageethfinnovation dis      3150.00
+imps                                          166199.00
+interest                                         236.84
+neft                                           29655.00
+nettxn                                        206468.00
+refund                                           140.18
+rev of billdesk lybk..-                           61.00
+trf                                             2000.00
+Name: flow, dtype: float64
+[INFO] For cash outflow
+Label
+atm                                             13
+caapsrtconlineebs*apsrtc online inmumbaiind-     1
+emi                                              4
+food                                             1
+imps                                            39
+invest                                           1
+loan                                             5
+nettxn                                          14
+trf                                             34
+dtype: int64
+Label
+atm                                              92000.00
+caapsrtconlineebs*apsrtc online inmumbaiind-       209.00
+emi                                              28856.00
+food                                               159.00
+imps                                            627892.00
+invest                                           18029.50
+loan                                             36070.00
+nettxn                                           88626.61
+trf                                              80948.10
+Name: flow, dtype: float64
+Time Taken:  18.498295068740845 seconds

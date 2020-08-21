@@ -1,0 +1,8 @@
+pandas
+numpy
+camelot-py
+tabula-py
+pytesseract
+opencv-python
+pillow
+pdf2image

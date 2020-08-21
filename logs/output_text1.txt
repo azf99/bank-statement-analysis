@@ -1,0 +1,60 @@
+[INFO] Information:
+Account Number : 50439602642
+IFSC =  IFSC Code : ALLA0211993
+Bank =  ALLA
+Name =  Mr. MOHD AZFAR ALAM LARI
+[INFO] Exracting transactions...
+  Transaction Date  Value Date  ...   Credit     Balance
+0       02/10/2019  02/10/2019  ...            686.27 CR
+1       04/10/2019  04/10/2019  ...   220.00   906.27 CR
+2       07/10/2019  07/10/2019  ...            822.01 CR
+3       07/10/2019  07/10/2019  ...  5000.00  5822.01 CR
+4       08/10/2019  08/10/2019  ...           5722.01 CR
+
+[5 rows x 6 columns]
+[INFO] Exported Transactions...
+Total Transations= 134
+Length of statement:  2 months
+Average monthly debit = Rs. 898.6098245614036
+Average monthly credit = Rs. 884.4035087719299
+[INFO] Classifying Transactions...
+Transaction Labels...
+   Transaction Date  Value Date  ...     Balance   Label
+0       02/10/2019  02/10/2019  ...   686.27 CR     atm
+1       04/10/2019  04/10/2019  ...   906.27 CR     trf
+2       07/10/2019  07/10/2019  ...   822.01 CR     trf
+3       07/10/2019  07/10/2019  ...  5822.01 CR    neft
+4       08/10/2019  08/10/2019  ...  5722.01 CR  travel
+
+[5 rows x 7 columns]
+[INFO] For cash Inflow...
+Label
+imps         2
+interest     1
+neft         4
+trf         47
+dtype: int64
+Label
+imps         2165.0
+interest       25.0
+neft        15500.0
+trf         32721.0
+Name: flow, dtype: float64
+[INFO] For cash outflow
+Label
+atm                        10
+food                       10
+quarterly avgbal ch ~ ~     1
+sms charges ~ ~             1
+travel                     15
+trf                        43
+dtype: int64
+Label
+atm                        18000.00
+food                         989.00
+quarterly avgbal ch ~ ~        2.00
+sms charges ~ ~               18.00
+travel                      1579.00
+trf                        30632.76
+Name: flow, dtype: float64
+Time Taken:  40.574453353881836 seconds

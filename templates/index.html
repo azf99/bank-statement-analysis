@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Quikkloan Bank Statement Analyzer</title>
+</head>
+
+<p>Upload your bank statement below</p>
+
+<body>
+
+    <form action="/file/upload" method="POST" enctype="multipart/form-data">
+        
+        <input type="file" name="document" class="btn btn-primary"
+                                        id="file-field" accept="pdf/*" >
+                                    </input>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
